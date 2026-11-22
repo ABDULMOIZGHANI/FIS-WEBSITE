@@ -8,6 +8,7 @@ export const company = {
   line: 'Surface Preparation & Industrial Coating',
   tagline: 'Quality Coating for a Stronger Tomorrow',
   ntn: 'B459426-3',
+  aribaId: 'AN11571015362',
   heroTags: ['Grit Blasting', 'Painting', 'Coating Inspection', 'Tank Cleaning', 'Marine & Industrial Coating Solutions'],
   footerScope: ['Surface Preparation', 'Industrial Coating', 'Coating Inspection/ Certified Inspector', 'Tank Cleaning & Washing'],
 }

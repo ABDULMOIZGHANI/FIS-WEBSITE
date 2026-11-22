@@ -112,6 +112,7 @@ function Footer() {
             ))}
           </ul>
           <p className="mono footer-ntn">NTN: {company.ntn}</p>
+          <p className="mono footer-ntn">SAP Ariba ID (ANID): {company.aribaId}</p>
         </div>
       </div>
     </footer>

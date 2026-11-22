@@ -368,6 +368,9 @@ a {
   color: var(--steel-2);
   margin-bottom: 28px;
 }
+.hero-meta:has(+ .hero-meta-sub) {
+  margin-bottom: 8px;
+}
 .hero-meta .dot {
   width: 5px;
   height: 5px;

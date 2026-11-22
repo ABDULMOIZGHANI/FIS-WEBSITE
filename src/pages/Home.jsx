@@ -15,6 +15,9 @@ function Hero() {
             <span className="dot" aria-hidden="true" />
             <span>NTN: {company.ntn}</span>
           </p>
+          <p className="hero-meta hero-meta-sub mono">
+            <span>SAP Ariba ID (ANID): {company.aribaId}</span>
+          </p>
           <h1 id="hero-title">
             <span className="h1-company">{company.name}</span>
             <span className="h1-line">
