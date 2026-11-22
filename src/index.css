@@ -450,7 +450,7 @@ a {
 }
 .hero-tags {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-top: clamp(48px, 7vw, 88px);
   border-top: 1px solid var(--line-inv);
 }
@@ -1059,9 +1059,12 @@ a {
   .hero-tags {
     grid-template-columns: 1fr 1fr;
   }
-  .hero-tags li:nth-child(3) {
+  .hero-tags li:nth-child(odd) {
     padding-left: 0;
     border-left: 0;
+  }
+  .hero-tags li:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
   }
   .hero-tags li:nth-child(n + 3) {
     border-top: 1px solid var(--line-inv);

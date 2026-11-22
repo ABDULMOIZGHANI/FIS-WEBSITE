@@ -12,7 +12,7 @@ export default function Services() {
         crumb="Services"
         kicker="What we do"
         title="Core Services"
-        intro="Abrasive blasting, painting activity, coating inspection and quality control — for marine and industrial applications."
+        intro="Abrasive blasting, painting activity, coating inspection, quality control and tank cleaning — for ships, oil & gas and industrial applications."
         image={IMG.blasting}
       />
 

@@ -8,8 +8,8 @@ export const company = {
   line: 'Surface Preparation & Industrial Coating',
   tagline: 'Quality Coating for a Stronger Tomorrow',
   ntn: 'B459426-3',
-  heroTags: ['Grit Blasting', 'Painting', 'Coating Inspection', 'Marine & Industrial Coating Solutions'],
-  footerScope: ['Surface Preparation', 'Industrial Coating', 'Coating Inspection/ Certified Inspector'],
+  heroTags: ['Grit Blasting', 'Painting', 'Coating Inspection', 'Tank Cleaning', 'Marine & Industrial Coating Solutions'],
+  footerScope: ['Surface Preparation', 'Industrial Coating', 'Coating Inspection/ Certified Inspector', 'Tank Cleaning & Washing'],
 }
 
 // From the "About Us" panel in the document's cover artwork.
@@ -51,6 +51,14 @@ export const services = [
     label: 'Marine & Industrial Coating Solutions',
     text: 'Coating-related service support for marine and industrial assets, coordinated to suit the work scope, site conditions and client instructions.',
     img: 'hull',
+  },
+  // Added at the client's request (Nov 2026).
+  {
+    no: '05',
+    title: 'Tank Cleaning, Washing & Bilges',
+    label: 'Tank Cleaning in Confined Spaces',
+    text: 'Cleaning and washing of tanks, bilges and other confined spaces on ships and in oil & gas facilities — removing residues, sludge and contamination so the space is ready for inspection, surface preparation and coating. Confined-space work is carried out in line with site safety requirements.',
+    img: 'tankCleaning',
   },
 ]
 

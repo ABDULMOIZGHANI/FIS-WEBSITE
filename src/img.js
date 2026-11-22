@@ -9,6 +9,7 @@ import turbine from './assets/img/turbine.jpg'
 import refineryDusk from './assets/img/refinery-dusk.jpg'
 import uzairAli from './assets/img/uzair-ali.jpg'
 import umairAli from './assets/img/umair-ali.jpg'
+import tankCleaning from './assets/img/tank-cleaning.jpg'
 import eqHolidayLv from './assets/img/equipment/holiday-detector-lv.jpg'
 import eqHolidayHv from './assets/img/equipment/holiday-detector-hv.jpg'
 import eqDewPointSite from './assets/img/equipment/dew-point-site.jpg'
@@ -17,6 +18,6 @@ import eqThickness from './assets/img/equipment/thickness-gauge.jpg'
 import eqCompressor from './assets/img/equipment/air-compressor.jpg'
 import eqBlastPot from './assets/img/equipment/blast-pot.jpg'
 
-export const IMG = { heroShip, blasting, painting, inspection, hull, tanks, refinery, turbine, refineryDusk, uzairAli, umairAli,
+export const IMG = { heroShip, blasting, painting, inspection, hull, tanks, refinery, turbine, refineryDusk, uzairAli, umairAli, tankCleaning,
   eqHolidayLv, eqHolidayHv, eqDewPointSite, eqDewPointDisplay, eqThickness, eqCompressor, eqBlastPot,
 }

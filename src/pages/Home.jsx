@@ -110,7 +110,7 @@ function Credentials() {
     ['Level III', 'FROSIO certified surface treatment inspector on the team'],
     ['16 yrs', 'Paint & coating inspection experience of our Technical Advisor'],
     ['Sa 1 – Sa 3', 'Blast-cleaning grades to ISO 8501-1 / SSPC / NACE equivalents'],
-    ['04', 'Core services — blasting, painting, inspection & coating solutions'],
+    ['05', 'Core services — blasting, painting, inspection, coating & tank cleaning'],
   ]
   return (
     <section className="creds" aria-label="Credentials">
